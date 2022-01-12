@@ -13,7 +13,7 @@ from proposalpanelists.models import AdviserAndPanelist
 def PDFtoTxt(file):
     print("entered PDFtoText")
 
-    key = "8a8435db-51ef-43f3-a8e6-c9703708a341"
+    key = "INSERT_KEY"
 
     # Configure API key authorization: Apikey
     configuration = cloudmersive_convert_api_client.Configuration()
@@ -58,7 +58,7 @@ def TxttoOneline(text):
 def plagiarism_check(text):
     url = "https://smallseotools.com/api/checkplag"
 
-    payload = {'key': 'bf8a5eb657fb3b6514b483ff32e3db53',
+    payload = {'key': 'INSERT KEY',
                'data': text}
     headers = {}
 
